@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b959de41-958f-45c6-b9ac-1da2dd5bc15a" name="Changes" comment="Test Bullet points 4">
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b959de41-958f-45c6-b9ac-1da2dd5bc15a" name="Changes" comment="Test Bullet points 5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +36,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681206919975</updated>
-      <workItem from="1681206921107" duration="2465000" />
+      <workItem from="1681206921107" duration="2915000" />
     </task>
     <task id="LOCAL-00001" summary="Test Bullet points">
       <created>1681206935443</created>
@@ -84,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681208784675</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Test Bullet points 5">
+      <created>1681211148035</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681211148035</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +109,7 @@
     <MESSAGE value="Test Bullet points 2" />
     <MESSAGE value="Test Bullet points 3" />
     <MESSAGE value="Test Bullet points 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Bullet points 4" />
+    <MESSAGE value="Test Bullet points 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Bullet points 5" />
   </component>
 </project>
