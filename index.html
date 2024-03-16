@@ -12,7 +12,7 @@
   <meta name="description" content="AI Research Cooperation of University Ulm Viscom and University Clinic Ulm."
 />
 
-  <meta name="keywords" content="Deep Learning, Medical Imaging, Contrastive Learning, Self-Supervised Learning, AI, XAIRAD, Artificial Intelligence, Ulm, University Ulm, Universität Ulm, Uniklinik Ulm, University Clinic Ulm, Research, Viscom, Visual Computing"
+  <meta name="keywords" content="Deep Learning, Medical Imaging, Masked Autoencoder, Contrastive Learning, Self-Supervised Learning, AI, XAIRAD, Artificial Intelligence, Ulm, University Ulm, Universität Ulm, Uniklinik Ulm, University Clinic Ulm, Research, Viscom, Visual Computing"
 />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -74,12 +74,17 @@ body {
  
 a.btn {
      color: white;
-     background-color: #ced067;
+     background-color: #9D8CA1;
 }
 
  
 a:hover {
      color: #b6b84c;
+}
+
+a {
+  text-decoration: none;  
+  color: #9D8CA1;  
 }
 
 
@@ -132,7 +137,11 @@ a.fn-item:hover {
             <h2 class="blog-description">Artificial Intelligence in Medical Imaging</h2>
 
             
+                 <a class='btn site-menu' data-title-anchor='welcome'>Welcome</a>
+            
                  <a class='btn site-menu' data-title-anchor='about-me'>About Me</a>
+            
+                 <a class='btn site-menu' data-title-anchor='reserach-focus'>Reserach Focus</a>
             
                  <a class='btn site-menu' data-title-anchor='publications'>Publications</a>
             
@@ -162,6 +171,8 @@ and the
 <a href='https://viscom.uni-ulm.de/'>Visual Computing Research Group</a>
  at the Univerity of Ulm.</p>
 <p>My vision is to use artificial intelligence to assist physicians, improve medical diagnosis, and help patients.</p>
+<p><a href="https://viscom.uni-ulm.de/members/daniel-wolf/">Uni Ulm Profile</a></p>
+<p><a href="https://www.linkedin.com/in/wolf-daniel/">LinkedIn Profile</a></p>
 
                 </section>
             </article>
@@ -174,19 +185,13 @@ and the
                     <h2 class="post-title">About Me</h2>
                 </header>
                 <section class="post-content">
-                    <br/>
-<a href='https://github.com/Wolfda95'><img src='/images/wolf-min.png' height="400" ></a>
-<a href='https://github.com/Wolfda95' >   Profile</a>
-<br/>
-<br/>
-
-<p> </p>
+                    <p> </p>
 <h5 id="work-experience">Work Experience</h5>
-<p>Since 2020: Research Associate, University Hospital Ulm</p>
+<p>Since 2020: Research Associate / PhD Candidate, University Hospital Ulm</p>
 <ul>
-<li>Research in Deep Learning for Medical Imaging</li>
-<li>IT Infrastructure Maintenance</li>
-<li>Teaching</li>
+<li>Research in Deep Learning for Medical Imaging (<a href="https://orcid.org/0000-0002-8584-5189">ORCID</a>)</li>
+<li>Responsible computer scientist of the RACCON project (<a href="https://racoon.network/">RACOON</a>)</li>
+<li>Teaching for the Visual Computing Group (<a href="https://viscom.uni-ulm.de/members/daniel-wolf/">VISCOM</a>)</li>
 </ul>
 <p> </p>
 <h5 id="academics">Academics</h5>
@@ -214,7 +219,7 @@ and the
 </ul>
 <p> </p>
 <h5 id="social-work">Social Work</h5>
-<p>2017-2023: Volleyball Coach (Coaching License C, Württemberg State Sport Association)</p>
+<p>2017-2023: Volleyball Coach at VfB Ulm (Coaching License C, Württemberg State Sport Association)</p>
 <ul>
 <li>2017-2019: U16 Boys</li>
 <li>2019-2023: Male Team 3 and U18 Boys</li>
@@ -231,15 +236,17 @@ and the
                     <h2 class="post-title">Reserach Focus</h2>
                 </header>
                 <section class="post-content">
-                    <ul>
-<li>Classification and Segmentation of Medical Images with Deep Learning</li>
-<li>Pre-Training of Deep Learning Models with Self-Supervised Learning (Contrastive Learning)</li>
-<li>Explainable Artificial Intelligence</li>
+                    <p>Training deep learning models requires a lot of annotated data!
+In medical imaging, often only small annotated datasets are available due to rare diseases, difficult annotations, unstructured stored data, lack of cooperation,&hellip; <br>
+My mission is to find solutions to these challenges and to develop deep learning models that can be trained on small datasets.</p>
+<p>Main Focus:</p>
+<ul>
+<li>Pre-Training of Deep Learning Models with Self-Supervised Learning (Contrastive Learning and Masked Autoencoders)</li>
+<li>Test Time Training</li>
 <li>Data Augmentation</li>
+<li>Classification and Segmentation with small datasets</li>
 </ul>
-<p><a href="https://viscom.uni-ulm.de/members/daniel-wolf/">Uni Ulm</a>
-<a href="https://www.linkedin.com/in/wolf-daniel/">LinkedIn</a>
-<a href="https://github.com/Wolfda95">GitHub</a>
+<p><a href="https://github.com/Wolfda95">GitHub</a>
 <a href="https://scholar.google.de/citations?hl=de&amp;user=vqKsXwgAAAAJ">Scholar</a>
 <a href="https://orcid.org/0000-0002-8584-5189">Orcid</a></p>
 
@@ -255,57 +262,68 @@ and the
                 </header>
                 <section class="post-content">
                     <p> </p>
-<h4 id="ct-radiomics-and-clinical-feature-model-to-predict-lymph-node-metastases-in-early-stage-testicular-cancer">CT Radiomics and Clinical Feature Model to Predict Lymph Node Metastases in Early-Stage Testicular Cancer</h4>
-<p><img src="/images/CathiTirdPaper.png" alt="Example image"></p>
+<h4 id="self-supervised-pre-training-with-contrastive-and-masked-autoencoder-methods-for-dealing-with-small-datasets-in-deep-learning-for-medical-imaging">Self-Supervised Pre-Training with Contrastive and Masked Autoencoder Methods for Dealing with Small Datasets in Deep Learning for Medical Imaging</h4>
+<p><a href="https://www.nature.com/articles/s41598-023-46433-0"><img src="/images/Nature.png" alt="Example image"></a></p>
 <p> </p>
 <h5 id="abstract">Abstract</h5>
-<p>Accurate retroperitoneal lymph node metastasis (LNM) prediction in early-stage testicular germ cell tumours (TGCT) harbours the potential to significantly reduce over- or undertreatment and treatment-related morbidity in this group of young patients as an important survivorship imperative. We investigated the role of computed tomography (CT) radiomics models integrating clinical predictors for the individualized prediction of LNM in early-stage TGCT. Ninety-one patients with surgically proven testicular germ cell tumours and contrast-enhanced CT were included in this retrospective study. Dedicated radiomics software was used to segment 273 retroperitoneal lymph nodes and extract features. After feature selection, radiomics-based machine learning models were developed to predict LN metastasis. The robustness of the procedure was controlled by 10-fold cross-validation. Using multivariable logistic regression modelling, we developed three prediction models: A radiomics-only model, a clinical-only model and a combined radiomics-clinical model. The models&rsquo; performance was evaluated using the area under the receiver operating characteristic curve (AUC). Finally, decision curve analysis was performed to estimate the clinical usefulness of the predictive model. The radiomics-only model for predicting lymph node metastasis reached a greater discrimination power than the clinical-only model, with an AUC of 0.84 (± 0.17; 95% CI ) vs 0.60 (± 0.22; 95% CI) in our study cohort. The combined model integrating clinical risk factors and selected radiomics features outperformed the clinical-only and the radiomics-only prediction models and showed good discrimination with an area under the curve of 0.94 ( ± 0.10; 95% CI). The decision curve analysis demonstrated the clinical usefulness of our proposed combined model. The presented combined CT-based radiomics-clinical model represents an exciting non-invasive prediction tool for individualized prediction of LN metastasis in testicular germ cell tumours. Multi-centre validation is required to generate high-quality evidence for its clinical application.</p>
+<p>Deep learning in medical imaging has the potential to minimize the risk of diagnostic errors, reduce radiologist workload, and accelerate diagnosis. Training such deep learning models requires large and accurate datasets, with annotations for all training samples. However, in the medical imaging domain, annotated datasets for specific tasks are often small due to the high complexity of annotations, limited access, or the rarity of diseases. To address this challenge, deep learning models can be pre-trained on large image datasets without annotations using methods from the field of self-supervised learning. After pre-training, small annotated datasets are sufficient to fine-tune the models for a specific task. The most popular self-supervised pre-training approaches in medical imaging are based on contrastive learning. However, recent studies in natural image processing indicate a strong potential for masked autoencoder approaches. Our work compares state-of-the-art contrastive learning methods with the recently introduced masked autoencoder approach &ldquo;SparK&rdquo; for convolutional neural networks (CNNs) on medical images. Therefore we pre-train on a large unannotated CT image dataset and fine-tune on several CT classification tasks. Due to the challenge of obtaining sufficient annotated training data in medical imaging, it is of particular interest to evaluate how the self-supervised pre-training methods perform when fine-tuning on small datasets. By experimenting with gradually reducing the training dataset size for fine-tuning, we find that the reduction has different effects depending on the type of pre-training chosen. The SparK pre-training method is more robust to the training dataset size than the contrastive methods. Based on our results, we propose the SparK pre-training for medical imaging tasks with only small annotated datasets. (Code: <a href="https://github.com/Wolfda95/SSL-MedicalImagining-CL-MAE">GitHub</a>)</p>
 <p> </p>
 <h5 id="reference">Reference</h5>
-<p><!-- raw HTML omitted -->Lisson, C. S., Manoj, S., Wolf, D., Schrader, J., Schmidt, S. A., Beer, M., &hellip; &amp; Lisson, C. G.. CT Radiomics and Clinical Feature Model to Predict Lymph Node Metastases in Early-Stage Testicular Cancer. <!-- raw HTML omitted -->Onco<!-- raw HTML omitted -->. 2023.<!-- raw HTML omitted -->
+<p><em>Wolf, D., Payer, T., Lisson, C. S., Lisson, C. G., Beer, M., Götz, M., &amp; Ropinski, T.</em> Self-supervised pre-training with contrastive and masked autoencoder methods for dealing with small datasets in deep learning for medical imaging. <em>Nature Scientific Reports</em> (2023)
+<a href="https://www.nature.com/articles/s41598-023-46433-0">Link</a></p>
+<hr>
+<p> </p>
+<h4 id="ct-radiomics-and-clinical-feature-model-to-predict-lymph-node-metastases-in-early-stage-testicular-cancer">CT Radiomics and Clinical Feature Model to Predict Lymph Node Metastases in Early-Stage Testicular Cancer</h4>
+<p><a href="https://www.mdpi.com/2673-7523/3/2/6"><img src="/images/CathiTirdPaper.png" alt="Example image"></a></p>
+<p> </p>
+<h5 id="abstract-1">Abstract</h5>
+<p>Accurate retroperitoneal lymph node metastasis (LNM) prediction in early-stage testicular germ cell tumours (TGCT) harbours the potential to significantly reduce over- or undertreatment and treatment-related morbidity in this group of young patients as an important survivorship imperative. We investigated the role of computed tomography (CT) radiomics models integrating clinical predictors for the individualized prediction of LNM in early-stage TGCT. Ninety-one patients with surgically proven testicular germ cell tumours and contrast-enhanced CT were included in this retrospective study. Dedicated radiomics software was used to segment 273 retroperitoneal lymph nodes and extract features. After feature selection, radiomics-based machine learning models were developed to predict LN metastasis. The robustness of the procedure was controlled by 10-fold cross-validation. Using multivariable logistic regression modelling, we developed three prediction models: A radiomics-only model, a clinical-only model and a combined radiomics-clinical model. The models&rsquo; performance was evaluated using the area under the receiver operating characteristic curve (AUC). Finally, decision curve analysis was performed to estimate the clinical usefulness of the predictive model. The radiomics-only model for predicting lymph node metastasis reached a greater discrimination power than the clinical-only model, with an AUC of 0.84 (± 0.17; 95% CI ) vs 0.60 (± 0.22; 95% CI) in our study cohort. The combined model integrating clinical risk factors and selected radiomics features outperformed the clinical-only and the radiomics-only prediction models and showed good discrimination with an area under the curve of 0.94 ( ± 0.10; 95% CI). The decision curve analysis demonstrated the clinical usefulness of our proposed combined model. The presented combined CT-based radiomics-clinical model represents an exciting non-invasive prediction tool for individualized prediction of LN metastasis in testicular germ cell tumours. Multi-centre validation is required to generate high-quality evidence for its clinical application.</p>
+<p> </p>
+<h5 id="reference-1">Reference</h5>
+<p><em>Lisson, C. S., Manoj, S., Wolf, D., Schrader, J., Schmidt, S. A., Beer, M., &hellip; ,Lisson, C. S.</em> CT Radiomics and Clinical Feature Model to Predict Lymph Node Metastases in Early-Stage Testicular Cancer. <em>Onco</em> (2023)
 <a href="https://www.mdpi.com/2673-7523/3/2/6">Link</a></p>
 <hr>
 <p> </p>
 <h4 id="weakly-supervised-learning-with-positive-and-unlabeled-data-for-automatic-brain-tumor-segmentation">Weakly Supervised Learning with Positive and Unlabeled Data for Automatic Brain Tumor Segmentation</h4>
-<p><img src="/images/applsci-12-10763-g001.png" alt="Example image"></p>
+<p><a href="https://www.mdpi.com/2076-3417/12/21/10763"><img src="/images/applsci-12-10763-g001.png" alt="Example image"></a></p>
 <p> </p>
-<h5 id="abstract-1">Abstract</h5>
+<h5 id="abstract-2">Abstract</h5>
 <p>A major obstacle to the learning-based segmentation of healthy and tumorous brain tissue is the requirement of having to create a fully labeled training dataset. Obtaining these data requires tedious and error-prone manual labeling with respect to both tumor and non-tumor areas. To mitigate this problem, we propose a new method to obtain high-quality classifiers from a dataset with only small parts of labeled tumor areas. This is achieved by using positive and unlabeled learning in conjunction with a domain adaptation technique. The proposed approach leverages the tumor volume, and we show that it can be either derived with simple measures or completely automatic with a proposed estimation method. While learning from sparse samples allows reducing the necessary annotation time from 4 h to 5 min, we show that the proposed approach further reduces the necessary annotation by roughly 50% while maintaining comparative accuracies compared to traditionally trained classifiers with this approach.</p>
 <p> </p>
-<h5 id="reference-1">Reference</h5>
-<p><!-- raw HTML omitted -->Wolf, D., Regnery, S., Tarnawski, R., Bobek-Billewicz, B., Polańska, J., &amp; Götz, M.. Weakly Supervised Learning with Positive and Unlabeled Data for Automatic Brain Tumor Segmentation. <!-- raw HTML omitted -->Applied Sciences<!-- raw HTML omitted -->. 2022.<!-- raw HTML omitted -->
+<h5 id="reference-2">Reference</h5>
+<p><em>Wolf, D., Regnery, S., Tarnawski, R., Bobek-Billewicz, B., Polańska, J., Götz, M.</em> Weakly Supervised Learning with Positive and Unlabeled Data for Automatic Brain Tumor Segmentation. <em>Applied Sciences</em> (2022)
 <a href="https://www.mdpi.com/2076-3417/12/21/10763">Link</a></p>
 <hr>
 <p> </p>
 <h4 id="deep-neural-networks-and-machine-learning-radiomics-modelling-for-prediction-of-relapse-in-mantle-cell-lymphoma">Deep Neural Networks and Machine Learning Radiomics Modelling for Prediction of Relapse in Mantle Cell Lymphoma</h4>
-<p><img src="/images/CathiPaper1.png" alt="Example image"></p>
-<p><img src="/images/Cathipaper2.png" alt="Example image"></p>
+<p><a href="https://www.mdpi.com/2072-6694/14/8/2008"><img src="/images/CathiPaper1.png" alt="Example image"></a></p>
+<p><a href="https://www.mdpi.com/2072-6694/14/8/2008"><img src="/images/Cathipaper2.png" alt="Example image"></a></p>
 <p> </p>
-<h5 id="abstract-2">Abstract</h5>
+<h5 id="abstract-3">Abstract</h5>
 <p>Mantle cell lymphoma (MCL) is a rare lymphoid malignancy with a poor prognosis characterised by frequent relapse and short durations of treatment response. Most patients present with aggressive disease, but there exist indolent subtypes without the need for immediate intervention. The very heterogeneous behaviour of MCL is genetically characterised by the translocation t(11;14)(q13;q32), leading to Cyclin D1 overexpression with distinct clinical and biological characteristics and outcomes. There is still an unfulfilled need for precise MCL prognostication in real-time. Machine learning and deep learning neural networks are rapidly advancing technologies with promising results in numerous fields of application. This study develops and compares the performance of deep learning (DL) algorithms and radiomics-based machine learning (ML) models to predict MCL relapse on baseline CT scans. Five classification algorithms were used, including three deep learning models (3D SEResNet50, 3D DenseNet, and an optimised 3D CNN) and two machine learning models based on K-nearest Neighbor (KNN) and Random Forest (RF). The best performing method, our optimised 3D CNN, predicted MCL relapse with a 70% accuracy, better than the 3D SEResNet50 (62%) and the 3D DenseNet (59%). The second-best performing method was the KNN-based machine learning model (64%) after principal component analysis for improved accuracy. Our optimised CNN developed by ourselves correctly predicted MCL relapse in 70% of the patients on baseline CT imaging. Once prospectively tested in clinical trials with a larger sample size, our proposed 3D deep learning model could facilitate clinical management by precision imaging in MCL.</p>
 <p> </p>
-<h5 id="reference-2">Reference</h5>
-<p><!-- raw HTML omitted -->Lisson, C. S., Lisson, C. G., Mezger, M. F., Wolf, D., Schmidt, S. A., Thaiss, W., Tausch, E., Beer A. J., Stilgenbauer, S., Beer, M., Goetz, M.. Deep Neural Networks and Machine Learning Radiomics Modelling for Prediction of Relapse in Mantle Cell Lymphoma. <!-- raw HTML omitted -->Cancers<!-- raw HTML omitted -->. 2022.<!-- raw HTML omitted -->
+<h5 id="reference-3">Reference</h5>
+<p><em>Lisson, C. S., Lisson, C. G., Mezger, M. F., Wolf, D., Schmidt, S. A., Thaiss, W., Tausch, E., Beer A. J., Stilgenbauer, S., Beer, M., Goetz, M.</em> Deep Neural Networks and Machine Learning Radiomics Modelling for Prediction of Relapse in Mantle Cell Lymphoma. <em>Cancers</em> (2022)
 <a href="https://www.mdpi.com/2072-6694/14/8/2008">Link</a></p>
 <hr>
 <h4 id="longitudinal-ct-imaging-to-explore-the-predictive-power-of-3d-radiomic-tumour-heterogeneity-in-precise-imaging-of-mantle-cell-lymphoma-mcl">Longitudinal CT Imaging to Explore the Predictive Power of 3D Radiomic Tumour Heterogeneity in Precise Imaging of Mantle Cell Lymphoma (MCL)</h4>
-<p><img src="/images/CathiPaper3.png" alt="Example image"></p>
+<p><a href="https://www.mdpi.com/2072-6694/14/2/393"><img src="/images/CathiPaper3.png" alt="Example image"></a></p>
 <p> </p>
-<h5 id="abstract-3">Abstract</h5>
+<h5 id="abstract-4">Abstract</h5>
 <p>The study’s primary aim is to evaluate the predictive performance of CT-derived 3D radiomics for MCL risk stratification. The secondary objective is to search for radiomic features associated with sustained remission. Included were 70 patients: 31 MCL patients and 39 control subjects with normal axillary lymph nodes followed over five years. Radiomic analysis of all targets (n = 745) was performed and features selected using the Mann Whitney U test; the discriminative power of identifying “high-risk MCL” was evaluated by receiver operating characteristics (ROC). The four radiomic features, “Uniformity”, “Entropy”, “Skewness” and “Difference Entropy” showed predictive significance for relapse (p &lt; 0.05)—in contrast to the routine size measurements, which showed no relevant difference. The best prognostication for relapse achieved the feature “Uniformity” (AUC-ROC-curve 0.87; optimal cut-off ≤0.0159 to predict relapse with 87% sensitivity, 65% specificity, 69% accuracy). Several radiomic features, including the parameter “Short Axis,” were associated with sustained remission. CT-derived 3D radiomics improves the predictive estimation of MCL patients; in combination with the ability to identify potential radiomic features that are characteristic for sustained remission, it may assist physicians in the clinical management of MCL.</p>
 <p> </p>
-<h5 id="reference-3">Reference</h5>
-<p><!-- raw HTML omitted -->Lisson, C. S., Lisson, C. G., Achilles, S., Mezger, M. F., Wolf, D., Schmidt, S. A, Thaiss, W., Johannes, B., Beer A. J., Stilgenbauer, S., Beer, M., Goetz, M.. Longitudinal CT Imaging to Explore the Predictive Power of 3D Radiomic Tumour Heterogeneity in Precise Imaging of Mantle Cell Lymphoma (MCL). <!-- raw HTML omitted -->Cancers<!-- raw HTML omitted -->. 2022.<!-- raw HTML omitted -->
+<h5 id="reference-4">Reference</h5>
+<p><em>Lisson, C. S., Lisson, C. G., Achilles, S., Mezger, M. F., Wolf, D., Schmidt, S. A, Thaiss, W., Johannes, B., Beer A. J., Stilgenbauer, S., Beer, M., Goetz, M.</em> Longitudinal CT Imaging to Explore the Predictive Power of 3D Radiomic Tumour Heterogeneity in Precise Imaging of Mantle Cell Lymphoma (MCL). <em>Cancers</em> (2022)
 <a href="https://www.mdpi.com/2072-6694/14/2/393">Link</a></p>
 <hr>
 <h4 id="multiple-trajectory-prediction-with-deep-temporal-and-spatial-convolutional-neural-networks">Multiple trajectory prediction with deep temporal and spatial convolutional neural networks</h4>
-<p><img src="/images/JanPaper.png" alt="Example image"></p>
+<p><a href="https://ieeexplore.ieee.org/abstract/document/9341327"><img src="/images/JanPaper.png" alt="Example image"></a></p>
 <p> </p>
-<h5 id="abstract-4">Abstract</h5>
+<h5 id="abstract-5">Abstract</h5>
 <p>Automated vehicles need to not only perceive their environment, but also predict the possible future behavior of all detected traffic participants in order to safely navigate in complex scenarios and avoid critical situations, ranging from merging on highways to crossing urban intersections. Due to the availability of datasets with large numbers of recorded trajectories of traffic participants, deep learning based approaches can be used to model the behavior of road users. This paper proposes a convolutional network that operates on rasterized actor-centric images which encode the static and dynamic actor-environment. We predict multiple possible future trajectories for each traffic actor, which include position, velocity, acceleration, orientation, yaw rate and position uncertainty estimates. To make better use of the past movement of the actor, we propose to employ temporal convolutional networks (TCNs) and rely on uncertainties estimated from the previous object tracking stage. We evaluate our approach on the public &ldquo;Argoverse Motion Forecasting&rdquo; dataset, on which it won the first prize at the Argoverse Motion Forecasting Challenge, as presented on the NeurIPS 2019 workshop on &ldquo;Machine Learning for Autonomous Driving&rdquo;.</p>
 <p> </p>
-<h5 id="reference-4">Reference</h5>
-<p><!-- raw HTML omitted -->Strohbeck, J., Belagiannis, V., Müller, J., Schreiber, M., Herrmann, M., Wolf, D., Buchholz, M.. Multiple trajectory prediction with deep temporal and spatial convolutional neural networks. <!-- raw HTML omitted -->IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)<!-- raw HTML omitted -->. 2020.<!-- raw HTML omitted -->
+<h5 id="reference-5">Reference</h5>
+<p><em>Strohbeck, J., Belagiannis, V., Müller, J., Schreiber, M., Herrmann, M., Wolf, D., Buchholz, M.</em> Multiple trajectory prediction with deep temporal and spatial convolutional neural networks. <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>. (2020)
 <a href="https://ieeexplore.ieee.org/abstract/document/9341327">Link</a></p>
 
                 </section>
@@ -319,10 +337,10 @@ and the
                     <h2 class="post-title">Contact</h2>
                 </header>
                 <section class="post-content">
-                    <p>Daniel Wolf</p>
-<p><a href="mailto:daniel.wolf@uniklinik-ulm.de">daniel.wolf@uniklinik-ulm.de</a></p>
-<p><a href="mailto:daniel.wolf@uniklinik-ulm.de">daniel.wolf@uni-ulm.de</a></p>
-<p><a href="https://pixabay.com/illustrations/artificial-intelligence-brain-think-3382507/">Image</a> thanks to <a href="https://pixabay.com/users/geralt-9301/">Gerd Altmann</a></p>
+                    <p><a href="mailto:daniel.wolf@uniklinik-ulm.de">daniel.wolf@uni-ulm.de</a></p>
+<p><a href="https://viscom.uni-ulm.de/members/daniel-wolf/">Uni Ulm Profile</a></p>
+<p><a href="https://www.linkedin.com/in/wolf-daniel/">LinkedIn Profile</a></p>
+<p><em><a href="https://pixabay.com/illustrations/artificial-intelligence-brain-think-3382507/">Image</a> thanks to <a href="https://pixabay.com/users/geralt-9301/">Gerd Altmann</a></em></p>
 
                 </section>
             </article>
